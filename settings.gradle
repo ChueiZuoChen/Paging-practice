@@ -1,0 +1,2 @@
+rootProject.name = "Paging練習"
+include ':app'
