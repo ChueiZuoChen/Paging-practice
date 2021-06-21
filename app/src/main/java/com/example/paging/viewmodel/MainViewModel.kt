@@ -20,7 +20,7 @@ class MainViewModel(private val dao: WordDao) : ViewModel() {
     fun insertWord(word: Word) = viewModelScope.launch(Dispatchers.IO) {
         dao.insertWord(word)
     }
-
+    //123
     //2.把資料從db拿出來 -> PagingData<T>
     //注意：因為把資料已經從Source拿出來了,
     //所以要透過Flow把資料傳出去給MainActivity使用
